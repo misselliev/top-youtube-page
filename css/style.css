@@ -1,18 +1,38 @@
 body{
-
 }
 .top-bar{
   height: 10%;
   width: 100%;
   align-items: center;
+  padding-bottom: 30px;
+  padding-top: 5px;
 }
 .youtube-video, .about-video{
-  display: flex;
+  width: 75%;
+  float: left;
+  padding-bottom: 20px;
+}
+.suggested-videos{
+  width: 24%;
+  float: right;
+  align-items: center;
+  vertical-align: top;
+  }
+
+.all-comments{
   width: 75%;
   float: left;
 }
-.suggested-videos{
-  display: flex;
-  width: 20%;
-  float: right;
+
+ .content{
+  height: 10%;
+  width: 40%;
+  float: left;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 5px;
+}
+.add-comment{
+  padding-bottom: 30px;
+  padding-top: 5px;
 }
