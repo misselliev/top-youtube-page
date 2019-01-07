@@ -6,11 +6,13 @@ body{
   width: 100%;
   align-items: center;
 }
-.youtube-video{
+.youtube-video, .about-video{
+  display: flex;
   width: 75%;
   float: left;
 }
 .suggested-videos{
+  display: flex;
   width: 20%;
   float: right;
 }
