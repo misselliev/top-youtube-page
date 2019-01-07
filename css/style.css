@@ -1,0 +1,16 @@
+body{
+
+}
+.top-bar{
+  height: 10%;
+  width: 100%;
+  align-items: center;
+}
+.youtube-video{
+  width: 75%;
+  float: left;
+}
+.suggested-videos{
+  width: 20%;
+  float: right;
+}
