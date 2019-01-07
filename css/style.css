@@ -1,38 +1,83 @@
 body{
+  background-color: #131313;
+  color:white;
+    padding-left: 35px;
 }
 .top-bar{
-  height: 10%;
+  height: 4%;
   width: 100%;
   align-items: center;
   padding-bottom: 30px;
   padding-top: 5px;
+  background: #3e3e3e;
 }
 .youtube-video, .about-video{
-  width: 75%;
+  width: 890px;
   float: left;
   padding-bottom: 20px;
+  padding-top : 15px;
+}
+header a {
+  color: #AAAAAA;
+}
+span{
+  color: #AAAAAA
 }
 .suggested-videos{
-  width: 24%;
-  float: right;
-  align-items: center;
-  vertical-align: top;
+  width: 25%;
+  float: left;
+  margin-bottom: 3px;
+  }
+.icons{
+    color: grey;
   }
 
 .all-comments{
-  width: 75%;
+  width:889px;
   float: left;
 }
 
  .content{
   height: 10%;
-  width: 40%;
+  width: 75%;
   float: left;
   align-items: center;
   padding-bottom: 30px;
   padding-top: 5px;
 }
 .add-comment{
-  padding-bottom: 30px;
+  padding-bottom: 3px;
   padding-top: 5px;
+}
+
+.song-name {
+font-size: 14;
+  font-size-adjust: auto;
+
+}
+.author-views {
+    font-size: 13;
+    color: grey;
+}
+
+.suggestion img{
+  float: left;
+  width: 168px;
+  height: 94px;
+}
+
+.visitor-photo {
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+}
+.visitor {
+  border-radius: 50%;
+  float: left;
+}
+.all-comments{
+  font-family: Roboto, Arial, sans-serif;
+  left: 9px;
 }
