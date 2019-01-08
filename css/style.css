@@ -130,7 +130,7 @@ section a {
 
 .content{
   height: 10%;
-  width: 75%;
+  width: 85%;
   float: left;
   align-items: center;
   padding-bottom: 30px;
@@ -159,13 +159,21 @@ section a {
   align-items:center;
 }
 .suggestion img{
-  flex-grow: 1;
+  padding-right: 8px;
+  flex-grow: 0;
+  flex-shrink: 0;
   float: left;
   width: 168px;
   height: 94px;
   padding-top: 4px;
   padding-bottom: 4px;
 }
+
+.listener-comment img{
+  padding-right: 5px;
+}
+
+.suggestion p{  flex-grow: 1;}
 
 .all-comments{
     padding: 6px;
@@ -174,7 +182,6 @@ section a {
     align-items:flex-start;
 }
 
-.suggestion p{  flex-grow: 1;}
 
 .visitor-photo {
   width: 40px;
@@ -198,7 +205,7 @@ section a {
 .cuerpo{
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: stretch;
 
 }
 .Primaria{
@@ -208,7 +215,6 @@ section a {
   align-items: flex-start;
 }
 .lateral{
-  margin: 4px;
   padding: 70px 5px 5px 5px;
   /*background-color: red;*/
   display: flex;
