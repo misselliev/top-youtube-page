@@ -1,63 +1,65 @@
-body{
-  background-color: #FFFFFF;
-  color:white;
-    padding-left: 35px;
+body, html{
+  margin:0;
+  padding:0;
 }
 /* 
-  <HEADER> - TOPBAR
+--- inicio <HEADER> topBar
 */
-.top-bar{
-  /* https://i.ytimg.com/an/NYJOAz1J80HEJy2HSM772Q/featured_channel.jpg?v=5906e7b7 */
-  height: 56px;
+.topBar {
   width: 100%;
-  /* padding: 0 16px; */
-  align-items: center;
-  vertical-align: middle;
+  height: 56px;
+  line-height:56px;
+  display: flex;
+  justify-content: center;
   border-bottom: 0.5px solid rgba(187, 187, 187, 0.5);
-  margin-right: 24px;
-  padding-top: 12px;
-  display: inline-block;
+  background: white;
+  position: fixed;
 }
 
-.left-icons{
-  float: left;
-  vertical-align: middle;
+.left-icons {
+  text-align: left;
+  width: 20%;
+}
+
+.center-icons {
+  text-align: center;
+  width: auto;
+}
+
+.right-icons {
+  text-align: right;
+  float: right;
+  width: 20%;
 }
 
 svg.youtube-icon{
-  /* position: relative; */
   width: 80px;
   height: 22px;
   vertical-align: middle;
 }
 
 .search-box{
-  /* position: relative; */
-  /* display: inline; */
-  /* justify-content: center; */
   text-align: center;
   vertical-align: middle;
-  width: 33%;
+  max-width: 640px;
+  min-width: 270px;
 }
 
 .right-icons{
-  /* position: absolute; */
   float: right !important;
   vertical-align: top !important;
-  padding-top: -20px;
   
 }
 
 
 header a {
-  vertical-align: middle !important;  
   text-decoration: none;
   color: #AAAAAA;
   size: 32px;
 }
 
 .search-form .search-button{
-  display: inline-grid;
+  display: inline-block;
   height: 28px;
   padding: 0 25px 0 25px;
   border: 1px solid #D3D3D3;
@@ -65,11 +67,11 @@ header a {
   border-left: 1px solid #D3D3D3;
   background-color: #f8f8f8;
   color: #7f8c8d;
-  vertical-align: middle !important;
+  vertical-align: middle;
 }
 
 .search-input{
-  display: inline-grid;
+  display: inline-block;
   padding-left: 12px;
   font-size: 16px;
   font-weight: 370;
@@ -77,18 +79,17 @@ header a {
   margin-left: 4px;
   width: 574px;
   max-width: 640px;
+  min-width: 270px;
   height: 28px;
-  /* padding: 25 0px 0 25px; */
   border: 1px solid #D3D3D3;
   border-radius: 0 2px 2px 0;
   border-left: 1px solid #D3D3D3;
   background-color: #ffffff;
   color: #7f8c8d;
-  vertical-align: middle !important;
+  vertical-align: middle;
 }
-/* 
-  ------ Fin <HEADER> - TOPBAR
-*/
+
+/* FIN DE HEADER */
 
 .youtube-video, .about-video{
   width: 890px;
