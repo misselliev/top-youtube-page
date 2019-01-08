@@ -6,7 +6,7 @@ body, html{
 --- inicio <HEADER> topBar
 */
 .topBar {
-  width: 100%;
+  width: 100% !important;
   height: 56px;
   line-height:56px;
   display: flex;
@@ -44,13 +44,6 @@ svg.youtube-icon{
   max-width: 640px;
   min-width: 270px;
 }
-
-.right-icons{
-  float: right !important;
-  vertical-align: top !important;
-  
-}
-
 
 header a {
   text-decoration: none;
@@ -91,22 +84,43 @@ header a {
 
 /* FIN DE HEADER */
 
+/* 
+===== inicio <section> youtube-video
+*/
 .youtube-video, .about-video{
   width: 890px;
   float: left;
   padding-bottom: 20px;
-  padding-top : 15px;
+  padding-top : 70px;
+  padding-left: 24px;
 }
-span{
-  color: #AAAAAA
+.title {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  color: black;
 }
+.number-of-views {
+  text-align: left;
+}
+.views{
+  color: #AAAAAA;
+  text-decoration: none;
+}
+
+section a {
+  text-decoration: none;
+  color: #AAAAAA;
+}
+
 .suggested-videos{
   width: 25%;
   float: left;
   margin-bottom: 3px;
+  padding-top: 70px;
   }
+
 .icons{
-    color: grey;
+    color: #AAAAAA;
   }
 
 .all-comments{
@@ -114,7 +128,7 @@ span{
   float: left;
 }
 
- .content{
+.content{
   height: 10%;
   width: 75%;
   float: left;
@@ -122,38 +136,42 @@ span{
   padding-bottom: 30px;
   padding-top: 5px;
 }
+
 .add-comment{
   padding-bottom: 3px;
   padding-top: 5px;
 }
 
 .song-name {
-font-size: 14;
+  font-size: 14;
   font-size-adjust: auto;
 
 }
 .author-views {
-    font-size: 13;
-    color: grey;
+  font-size: 13;
+  color: grey;
 }
 
 .suggestion img{
   float: left;
   width: 168px;
   height: 94px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .visitor-photo {
-
   width: 40px;
   height: 40px;
   border-radius: 50%;
   float: left;
 }
+
 .visitor {
   border-radius: 50%;
   float: left;
 }
+
 .all-comments{
   font-family: Roboto, Arial, sans-serif;
   left: 9px;
