@@ -1,27 +1,100 @@
 body{
-  background-color: #131313;
+  background-color: #FFFFFF;
   color:white;
     padding-left: 35px;
 }
-
+/* 
+  <HEADER> - TOPBAR
+*/
 .top-bar{
   /* https://i.ytimg.com/an/NYJOAz1J80HEJy2HSM772Q/featured_channel.jpg?v=5906e7b7 */
-  height: 60px;
+  height: 56px;
   width: 100%;
-  padding: 0 16px;
+  /* padding: 0 16px; */
   align-items: center;
   vertical-align: middle;
   border-bottom: 0.5px solid rgba(187, 187, 187, 0.5);
   margin-right: 24px;
+  padding-top: 12px;
+  display: inline-block;
 }
+
+.left-icons{
+  float: left;
+  vertical-align: middle;
+}
+
+svg.youtube-icon{
+  /* position: relative; */
+  width: 80px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+.search-box{
+  /* position: relative; */
+  /* display: inline; */
+  /* justify-content: center; */
+  text-align: center;
+  vertical-align: middle;
+  width: 33%;
+}
+
+.right-icons{
+  /* position: absolute; */
+  float: right !important;
+  vertical-align: top !important;
+  padding-top: -20px;
+  
+}
+
+
+header a {
+  vertical-align: middle !important;  
+  text-decoration: none;
+  color: #AAAAAA;
+  size: 32px;
+}
+
+.search-form .search-button{
+  display: inline-grid;
+  height: 28px;
+  padding: 0 25px 0 25px;
+  border: 1px solid #D3D3D3;
+  border-radius: 0 2px 2px 0;
+  border-left: 1px solid #D3D3D3;
+  background-color: #f8f8f8;
+  color: #7f8c8d;
+  vertical-align: middle !important;
+}
+
+.search-input{
+  display: inline-grid;
+  padding-left: 12px;
+  font-size: 16px;
+  font-weight: 370;
+  line-height: 24px;
+  margin-left: 4px;
+  width: 574px;
+  max-width: 640px;
+  height: 28px;
+  /* padding: 25 0px 0 25px; */
+  border: 1px solid #D3D3D3;
+  border-radius: 0 2px 2px 0;
+  border-left: 1px solid #D3D3D3;
+  background-color: #ffffff;
+  color: #7f8c8d;
+  vertical-align: middle !important;
+}
+/* 
+  ------ Fin <HEADER> - TOPBAR
+*/
+
 .youtube-video, .about-video{
   width: 890px;
   float: left;
   padding-bottom: 20px;
   padding-top : 15px;
-}
-header a {
-  color: #AAAAAA;
 }
 span{
   color: #AAAAAA
@@ -85,67 +158,4 @@ font-size: 14;
   left: 9px;
 }
 
-.left-icons{
-  width: 200px;
-  height: 60px;
-  float: left;
-  vertical-align: middle;
-}
 
-svg.youtube-icon{
-  position: relative;
-  width: 100px;
-  height: 60px;
-  vertical-align: middle;
-}
-
-.search-box{
-  position: relative;
-  display: inline;
-  justify-content: center;
-  vertical-align: middle;
-}
-
-.right-icons{
-  position: relative;
-  float: right !important;
-  vertical-align: middle !important;
-  
-}
-
-header a {
-  text-decoration: none;
-  color: #AAAAAA;
-  size: 32px;
-}
-
-.search-form .search-button{
-  display: inline-block;
-  height: 30px;
-  padding: 0 25px 0 25px;
-  border: 1px solid #D3D3D3;
-  border-radius: 0 2px 2px 0;
-  border-left: 1px solid #D3D3D3;
-  background-color: #e9e8e9;
-  color: #7f8c8d;
-  vertical-align: middle !important;
-}
-
-.search-input{
-  display: inline-block;
-  padding-left: 12px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  margin-left: 4px;
-  width: 100%;
-  max-width: 640px;
-  height: 30px;
-  padding: 25 0px 0 25px;
-  border: 1px solid #D3D3D3;
-  border-radius: 0 2px 2px 0;
-  border-left: 1px solid #D3D3D3;
-  background-color: #f8f8ff;
-  color: #7f8c8d;
-  vertical-align: middle !important;
-}
