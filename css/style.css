@@ -2,7 +2,7 @@ body, html{
   margin:0;
   padding:0;
 }
-/* 
+/*
 --- inicio <HEADER> topBar
 */
 .topBar {
@@ -84,7 +84,7 @@ header a {
 
 /* FIN DE HEADER */
 
-/* 
+/*
 ===== inicio <section> youtube-video
 */
 .youtube-video, .about-video{
@@ -152,13 +152,29 @@ section a {
   color: grey;
 }
 
+
+.suggestion{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
 .suggestion img{
+  flex-grow: 1;
   float: left;
   width: 168px;
   height: 94px;
   padding-top: 4px;
   padding-bottom: 4px;
 }
+
+.all-comments{
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.suggestion p{  flex-grow: 1;}
 
 .visitor-photo {
   width: 40px;
@@ -177,4 +193,32 @@ section a {
   left: 9px;
 }
 
+/*----------------------------- body --------------------------------*/
 
+.cuerpo{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+}
+.Primaria{
+  /*background-color: blue;*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.lateral{
+  margin: 4px;
+  padding: 70px 5px 5px 5px;
+  /*background-color: red;*/
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.about-listener{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding-bottom: 13px;
+
+}
