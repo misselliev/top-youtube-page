@@ -1,6 +1,6 @@
-body, html{
-  margin:0;
-  padding:0;
+body, html {
+  margin: 0;
+  padding: 0;
 }
 
 .main {
@@ -10,7 +10,8 @@ body, html{
 
 /*
 /* =======HEADER========= */
-.header{
+
+.header {
   height: 56px;
   line-height: 56px;
   width: 100%;
@@ -28,6 +29,7 @@ header, a {
   text-decoration: none;
   color: #AAAAAA;
 }
+
 .left {
   flex-direction: row;
   order: 0;
@@ -36,7 +38,7 @@ header, a {
   padding-left: 24px;
 }
 
-svg.youtube-icon{
+svg.youtube-icon {
   /* width: 80px; */
   height: 24px;
   padding-left: 27px;
@@ -52,7 +54,7 @@ svg.youtube-icon{
 }
 
 .fa-search {
-  font-size: 24;
+  font-size: 14px;
 }
 
 .right {
@@ -66,15 +68,19 @@ svg.youtube-icon{
 span a.video {
   padding-right: 31px;
 }
+
 span a.apps {
   padding-right: 31px;
 }
+
 span a.bell {
   padding-right: 33px;
 }
+
 span a.message {
   padding-right: 31px;
 }
+
 .user-photo {
   vertical-align: middle;
   width: 32px;
@@ -82,7 +88,7 @@ span a.message {
   border-radius: 50%;
 }
 
-.search-button{
+.search-button {
   height: 32px;
   line-height: 32px;
   width: 64px;
@@ -96,11 +102,11 @@ span a.message {
   margin: -5px !important;
 }
 
-.search-input{
+.search-input {
   margin: 0px;
   padding-left: 12px;
   font-size: 15px;
-  font-weight: 370;
+  font-weight: 300;
   width: 574px;
   height: 32px;
   line-height: 32px;
@@ -112,28 +118,45 @@ span a.message {
   color: #7f8c8d;
 }
 
-
 /*
 ===== inicio <section> youtube-video
 */
-.youtube-video, .about-video{
-  width: 890px;
+
+.youtube-video, .about-video {
+  width: 85%;
   float: left;
   padding-bottom: 20px;
-  padding-top : 70px;
+  padding-top: 70px;
   padding-left: 24px;
 }
+
 .title {
+  width: 85%;
   padding-top: 25px;
   padding-bottom: 20px;
   color: black;
+  font-weight: lighter;
+  /* line-height: 16px; */
+  font-size: 17px;
+  font-family: Roboto, Arial, sans-serif;
 }
+
 .number-of-views {
   text-align: left;
+  color: #606060;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: Roboto, Arial, sans-serif;
+  padding-left: 8px;
 }
-.views{
+
+.views {
   color: #AAAAAA;
   text-decoration: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 13px;
+  padding-right: 15px;
+  margin-left: 10px;
 }
 
 section a {
@@ -141,76 +164,118 @@ section a {
   color: #AAAAAA;
 }
 
-.suggested-videos{
+.suggested-videos {
   width: 25%;
   float: left;
   margin-bottom: 3px;
   padding-top: 70px;
-  }
-
-.icons{
-    color: #AAAAAA;
-  }
-
-.all-comments{
-  width:889px;
-  float: left;
 }
 
-.content{
+.icon {
+  color: #AAAAAA;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.likes .dislikes {
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 8px !important;
+}
+
+.all-comments {
+  width: 820px;
+  float: left;
+  margin-left: 20px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.content {
   height: 10%;
-  width: 85%;
+  width: 820px;
   float: left;
   align-items: center;
   padding-bottom: 30px;
   padding-top: 5px;
 }
 
-.add-comment{
-  padding-bottom: 3px;
+.add-comment {
+  padding-bottom: 30px;
   padding-top: 5px;
+  margin-left: -30px;
+}
+
+#input-comment {
+  width: 760px !important;
+  height: 40px !important;
+  float: right;
 }
 
 .song-name {
-  font-size: 14;
-  font-size-adjust: auto;
-
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  font-family: Roboto, Arial, sans-serif;
+  vertical-align: top;
+  margin-top: -50px;
 }
+
 .author-views {
-  font-size: 13;
+  font-size: 13px;
   color: grey;
+  font-family: Roboto, Arial, sans-serif;
 }
 
+.up-next {
+  font-family: Roboto, Arial, sans-serif;
+  display: inline-block;
+  align-items: left;
+}
 
-.suggestion{
+.autoplay-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-bottom: 5px;
+}
+
+.autoplay {
+  float: right;
+  color: #0360D4;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 13px;
+  margin-left: 200px;
+  align-items: right;
+  padding-bottom: 8px;
+}
+
+.suggestion {
   display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
 }
-.suggestion img{
+
+.suggestion img {
   padding-right: 8px;
   flex-grow: 0;
   flex-shrink: 0;
   float: left;
   width: 168px;
-  height: 94px;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  height: 95px;
+  object-fit: cover;
 }
 
-.listener-comment img{
+.listener-comment img {
   padding-right: 5px;
+  margin-left: -30px;
 }
 
-.suggestion p{  flex-grow: 1;}
-
-.all-comments{
-    padding: 6px;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
+.suggestion p {
+  flex-grow: 1;
 }
-
 
 .visitor-photo {
   width: 40px;
@@ -224,36 +289,32 @@ section a {
   float: left;
 }
 
-.all-comments{
-  font-family: Roboto, Arial, sans-serif;
-  left: 9px;
-}
-
 /*----------------------------- body --------------------------------*/
 
-.cuerpo{
+.cuerpo {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-
 }
-.Primaria{
+
+.Primaria {
   /*background-color: blue;*/
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.lateral{
-  padding: 70px 5px 5px 5px;
+
+.lateral {
+  padding: 70px 4px 4px 24px;
   /*background-color: red;*/
   display: flex;
   flex-direction: column;
   align-items: baseline;
 }
-.about-listener{
+
+.about-listener {
   display: flex;
   flex-direction: row;
   align-items: stretch;
   padding-bottom: 13px;
-
 }
